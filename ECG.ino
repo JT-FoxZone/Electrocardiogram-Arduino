@@ -13,7 +13,7 @@ void loop() {
    Serial.println('!');
  }
  else{
-   // send the value of analog input 0:
+   // send the value of analog input A0:
      Serial.println(analogRead(A0));
  }
  //Wait for a bit to keep serial data from saturating
